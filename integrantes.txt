@@ -1,0 +1,12 @@
+Practica Recuperatorio Vue3
+
+Nombre:
+- Eddy Paco Mamani
+
+
+
+Pasos para iniciar el proyecto
+1) npm install
+2) npm run serve
+3) cd db 
+4) json-server --watch db.json

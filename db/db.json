@@ -1,0 +1,44 @@
+{
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "OMAR",
+      "apellidos": "PACO NINA",
+      "area": "finanzas"
+    },
+    {
+      "id": 2,
+      "nombre": "XIMENA",
+      "apellidos": "MONASTERIOS COCA",
+      "area": "producción"
+    }
+  ],
+  "vehiculos": [
+    {
+      "id": 1,
+      "tipo": "auto",
+      "placa": "4523-HGT",
+      "color": "rojo",
+      "empleadoId": 1,
+      "empleado": {
+        "id": 1,
+        "nombre": "OMAR",
+        "apellidos": "PACO NINA",
+        "area": "finanzas"
+      }
+    },
+    {
+      "id": 2,
+      "tipo": "moto",
+      "placa": "654-TRE",
+      "color": "rojo",
+      "empleadoId": 2,
+      "empleado": {
+        "id": 2,
+        "nombre": "XIMENA",
+        "apellidos": "MONASTERIOS COCA",
+        "area": "producción"
+      }
+    }
+  ]
+}
