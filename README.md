@@ -5,7 +5,7 @@
 npm install
 ```
 
-### Compila y recarga en caliente para desarrollo
+## Compilación
 ```
 npm run serve
 ```
@@ -15,3 +15,4 @@ npm run serve
 cd db 
 ```
 json-server --watch db.json
+```
